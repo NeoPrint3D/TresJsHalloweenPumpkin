@@ -23,11 +23,6 @@ export default defineNuxtConfig({
       },
     ],
   ],
-
-  imports: {
-    dirs: ["stores"],
-  },
-
   vite: {
     plugins: [glsl()],
   },
