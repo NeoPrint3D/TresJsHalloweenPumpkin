@@ -37,7 +37,7 @@ useGLTF("/pumpkin.glb").then((logo) => {
 
   const baseMaterial = new PointsMaterial({
     color: "#ffffff",
-    size: 0.005,
+    size: 0.00625,
     sizeAttenuation: true,
   });
 

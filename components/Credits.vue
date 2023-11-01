@@ -1,10 +1,12 @@
 <template>
   <div
-    class="bg-[#282A36]/70 shadow-3xl fixed z-50 bottom-0 m-10 p-5 rounded-3xl backdrop-blur-lg flex-col flex gap-5 w-full max-w-sm"
+    class="bg-[#282A36]/70 shadow-3xl fixed z-50 bottom-0 m-10 p-5 rounded-3xl backdrop-blur-sm flex-col flex gap-5 w-full max-w-md"
   >
     <h1 class="text-3xl font-bold">Halloween Pumpkin</h1>
-    <p class="w-[32ch]">
-      A Halloween Pumpkin that is created with Three.JS, TresJS and WebGL
+    <p class="w-[48ch]">
+      A 3D pumpkin made with Tres.js, a 3D library for Vue.js. This is a
+      Halloween-themed demo for the Tres.js library that demonstrates particles,
+      custom shaders, and glb models.
     </p>
 
     <div class="flex items-center gap-5">
@@ -69,6 +71,7 @@
     </div>
     <NuxtLink
       to="https://dronsman.com"
+      target="_blank"
       class="flex gap-1.5 items-center text-[#A4FFFF] hover:underline"
     >
       <p class="text-center mt-2">Created by Drew Ronsman</p>

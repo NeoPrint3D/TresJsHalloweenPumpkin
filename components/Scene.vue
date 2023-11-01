@@ -1,5 +1,5 @@
 <template>
-  <TresCanvas window-size clear-color="purple">
+  <TresCanvas window-size clear-color="#6e44ff">
     <TresPerspectiveCamera :position="[0, 0, 1.75]" />
 
     <OrbitControls />

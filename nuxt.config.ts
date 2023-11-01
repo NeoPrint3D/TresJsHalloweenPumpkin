@@ -2,19 +2,6 @@ import glsl from "vite-plugin-glsl";
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  app: {
-    head: {
-      title: "Halloween Pumpkin",
-      meta: [
-        {
-          name: "description",
-          content:
-            "A Halloween Pumpkin that is created with Three.JS, TresJS and WebGL using particles and shaders",
-        },
-      ],
-    },
-  },
-
   modules: [
     "@nuxt/devtools",
     "@nuxt/ui",
