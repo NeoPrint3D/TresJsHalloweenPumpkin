@@ -1,6 +1,6 @@
 <template>
   <div
-    class="z-50 bottom-0 fixed flex justify-center w-screen sm:justify-start"
+    class="z-50 bottom-0 fixed flex justify-center w-screen sm:justify-start text-white"
   >
     <div
       class="bg-[#282A36]/70 shadow-3xl m-2 md:m-10 px-5 py-3 sm:py-5 rounded-3xl backdrop-blur-sm flex-col flex gap-1.5 sm:gap-3 w-full max-w-md"
